@@ -49,10 +49,19 @@ const Home = (props) => {
               </div>
             </div>
             <div className={styles.greyContainer}>
+              <div className={styles.headerBar}>
+            <div className={styles.headline}> 
+              <h3>Crowdsourced Naming Contests</h3>
+            </div>
+            <p>Launch a naming contest and receive 100s of custom ideas from world's largest community of naming experts. Includes rapid brainstorming and agency-style name validation tools</p>
+              </div>
               <SlideBar
                 images={carouselConstants.mainSliderImages}
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
+              <div className={styles.button}>
+                Start A Contest
+              </div>
             </div>
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
