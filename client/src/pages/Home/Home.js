@@ -53,7 +53,7 @@ const Home = (props) => {
             <div className={styles.headline}> 
               <h3>Crowdsourced Naming Contests</h3>
             </div>
-            <p>Launch a naming contest and receive 100s of custom ideas from world's largest community of naming experts. Includes rapid brainstorming and agency-style name validation tools</p>
+            <p>.Launch a naming contest and receive 100s of custom ideas from world's largest community of naming experts. Includes rapid brainstorming and agency-style name validation tools</p>
               </div>
               <SlideBar
                 images={carouselConstants.mainSliderImages}
