@@ -42,7 +42,7 @@ const Home = (props) => {
                 <span className={styleName}>{text}</span>
               </div>
               <p>
-                Launch a naming contest to engage hundreds of naming
+                Launc a naming contest to engage hundreds of naming
                 experts as you’re guided through our agency-level naming process.
                 Or, explore our hand-picked collection of premium names
                 available for immediate purchase
