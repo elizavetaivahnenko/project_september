@@ -8,6 +8,8 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+import NamingCards from '../../components/NamingCards/index.jsx';
+import twoCards from '../../components/NamingCards/twoCards.json'
 
 const Home = (props) => {
   const [index, setIndex] = useState(0);
@@ -32,6 +34,7 @@ const Home = (props) => {
       <Header />
       {isFetching ? <Spinner mtop /> : (
         <>
+          <NamingCards kitCards={twoCards} />
           <div className={styles.container}>
             <div className={styles.headerBar}>
               <div className={styles.headline}>
@@ -55,6 +58,10 @@ const Home = (props) => {
             </div>
             <p>.Launch a naming contest and receive 100s of custom ideas from world's largest community of naming experts. Includes rapid brainstorming and agency-style name validation tools</p>
               </div>
+              <SlideBar
+                images={carouselConstants.expertSliderImages}
+                carouselType={carouselConstants.MAIN_SLIDER}
+              />
               <SlideBar
                 images={carouselConstants.mainSliderImages}
                 carouselType={carouselConstants.MAIN_SLIDER}

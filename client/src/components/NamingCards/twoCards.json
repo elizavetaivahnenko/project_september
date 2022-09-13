@@ -1,0 +1,13 @@
+[
+		{"title":"Names For Sale",
+	   "text":"Hand-picked collection of premium names with a matching URL",
+      "button":"Explore Names For Sale",
+	    "blueButton": true
+		},
+	 {
+		"title":"Naming Contests",
+		"text":"Custom name suggestion from 100s of naming experts as you are guided through our agency-style process",
+		"button":"Launch a Contest",
+		"blueButton": false
+	}
+]
