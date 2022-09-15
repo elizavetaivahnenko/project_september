@@ -6,12 +6,12 @@ export default {
   FEEDBACK_SLIDER: 'FEEDBACK_SLIDER',
   EXPERT_SLIDER: 'EXPERT_SLIDER',
   expertSliderImages: [
-    `${CONSTANTS.STATIC_IMAGES_PATH}2.1.jpj`,
-    `${CONSTANTS.STATIC_IMAGES_PATH}2.2.jpj`,
-    `${CONSTANTS.STATIC_IMAGES_PATH}2.3.jpj`,
-    `${CONSTANTS.STATIC_IMAGES_PATH}2.4.jpj`,
-    `${CONSTANTS.STATIC_IMAGES_PATH}2.5.jpj`,
-    `${CONSTANTS.STATIC_IMAGES_PATH}2.6.jpj`,
+    `${CONSTANTS.STATIC_IMAGES_PATH}domens/2.1.jpg`,
+    `${CONSTANTS.STATIC_IMAGES_PATH}domens/2.2.jpg`,
+    `${CONSTANTS.STATIC_IMAGES_PATH}domens/2.3.jpg`,
+    `${CONSTANTS.STATIC_IMAGES_PATH}domens/2.4.jpg`,
+    `${CONSTANTS.STATIC_IMAGES_PATH}domens/2.5.jpg`,
+    `${CONSTANTS.STATIC_IMAGES_PATH}domens/2.6.jpg`,
   ],
   mainSliderImages: [
     `${CONSTANTS.STATIC_IMAGES_PATH}main_slider/21..jpg`,
